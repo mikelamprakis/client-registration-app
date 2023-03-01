@@ -1,0 +1,28 @@
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 8px;
+    border: black solid;
+    width: 25vw;
+    height: 5vh;
+    margin: 3px;
+}
+
+.card h3{
+    padding: 0 10px;
+}
+
+.card .name{
+    width: 13vw;
+}
+
+
+
+
